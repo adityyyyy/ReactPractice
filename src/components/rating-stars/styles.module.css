@@ -1,0 +1,7 @@
+.active {
+   color: rgb(241, 209, 24);
+}
+
+.disabled {
+   color: rgb(12, 10, 10);
+}

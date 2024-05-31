@@ -1,0 +1,47 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.productscontainer {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+}
+
+.product {
+   padding: 20px;
+   border: 1px solid;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.product img {
+   width: 200px;
+   height: 200px;
+}
+
+.activebtn {
+   background-color: #4c4196;
+   width: max-content;
+   border: none;
+   color: rgb(0, 0, 0);
+   padding: 10px 10px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 20%;
+}
+
+.inactivebtn {
+   background-color: #4c4196;
+   width: max-content;
+   border: none;
+   color: rgb(0, 0, 0);
+   padding: 10px 10px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 20%;
+   pointer-events: none;
+}

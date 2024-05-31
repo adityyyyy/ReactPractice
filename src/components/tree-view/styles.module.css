@@ -1,0 +1,20 @@
+.treeviewcontainer {
+   background: rgb(167, 167, 243);
+   min-height: 100vh;
+   width: 300px;
+}
+
+.menulistcontainer {
+   list-style: none;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.itemcontainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   cursor: pointer;
+   color: #fff;
+}
